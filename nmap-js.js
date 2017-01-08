@@ -5,7 +5,7 @@ module.exports = {
     getDevices: (addresses, successCallback, errorCallback) => {
         var command = "nmap -sP ";
         if(process.platform === 'linux' || process.platform === 'darwin'){
-            command = `sudo ${command}`;
+            command = `sudo -S true ${command}`;
         }
         if(addresses && Array.isArray(addresses)) {
             command = `${command} ${addresses.join(' ')}`;
