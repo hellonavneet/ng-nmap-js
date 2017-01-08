@@ -1,8 +1,8 @@
 {
-  "name": "ng-nmap-js",
+  "name": "nmap-js",
   "version": "1.0.0",
   "description": "Gets a list of devices on the network and their MAC addressess",
-  "main": "ng-npm-js.js",
+  "main": "npm-js.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

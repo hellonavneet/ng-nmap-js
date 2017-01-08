@@ -1,4 +1,4 @@
-# ng-nmap-js
+# nmap-js
 Gets a list of devices on the network and their MAC addressess
 
 ## prerequisites ##
@@ -9,11 +9,11 @@ https://nmap.org/
 
 ## install ##
 
-To install `npm install ng-nmap-js`
+To install `npm install nmap-js`
 
 ## example ##
 ```javascript
-var nmap = require('ng-nmap-js')
+var nmap = require('nmap-js')
   
       let addresses = [
         'scanme.nmap.org',
