@@ -13,19 +13,18 @@ To install `npm install nmap-js`
 
 ## example ##
 ```javascript
-var nmap = require('nmap-js')
-  
-      let addresses = [
-        'scanme.nmap.org',
-        '10.0.2.0/25',
-        '192.168.10.80-120',
-        'fe80::42:acff:fe11:fd4e/64'
-      ];
-    
+var nmap = require('nmap-js');
+
+var addresses = [
+  '192.168.1.0/24', //nmap target specification https://nmap.org/book/man-target-specification.html
+  '192.168.10.0/24',
+];
+
 nmap.getDevices(addresses, function(devices) {
-  for (var item in devices) {
-    console.log(JSON.stringify(report[item]));
+  for (var item of devices) {
+    console.log(JSON.stringify(item));    
   }
+  console.log("done");
 }, function(error) {
    console.log(error);
 });
