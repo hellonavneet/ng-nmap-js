@@ -1,6 +1,12 @@
 # ng-nmap-js
 Gets a list of devices on the network and their MAC addressess
 
+## prerequisites ##
+
+nmap must be installed and the installed location must be added to the system PATH variable.
+
+https://nmap.org/
+
 ## install ##
 
 To install `npm install ng-nmap-js`
