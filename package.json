@@ -1,5 +1,5 @@
 {
-  "name": "nmap-js",
+  "name": "ng-nmap-js",
   "version": "1.0.0",
   "description": "Gets a list of devices on the network and their MAC addressess",
   "main": "ng-npm-js.js",
