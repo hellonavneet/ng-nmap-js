@@ -3,7 +3,7 @@ var exec = require('child_process').exec;
 var os = require('os');
 module.exports = {
     getDevices: (addresses, successCallback, errorCallback) => {
-        var command = "npm -sP ";
+        var command = "nmap -sP ";
         if(process.platform === 'linux' || process.platform === 'darwin'){
             command = `sudo ${command}`;
         }
