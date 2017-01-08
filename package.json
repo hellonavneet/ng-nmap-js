@@ -1,0 +1,25 @@
+{
+  "name": "nmap-js",
+  "version": "1.0.0",
+  "description": "Gets a list of devices on the network and their MAC addressess",
+  "main": "ng-npm-js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellonavneet/nmap-js.git"
+  },
+  "keywords": [
+    "nmap"
+  ],
+  "author": "Navneet Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellonavneet/nmap-js/issues"
+  },
+  "homepage": "https://github.com/hellonavneet/nmap-js#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
