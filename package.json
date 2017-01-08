@@ -1,6 +1,6 @@
 {
   "name": "nmap-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gets a list of devices on the network and their MAC addressess",
   "main": "nmap-js.js",
   "scripts": {
